@@ -1,0 +1,44 @@
+
+body {
+  background-color: #000; /* Set the background color to black for the entire page */
+  color: #fff; /* Set the text color to white for the entire page */
+  margin: 0; /* Remove default margin */
+  font-family: inter, sans-serif; /*  i can Choose a suitable font-family */
+}
+
+.FAQ {
+  background-color: #111; /* Set the background color for the FAQ container */
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 5px rgba(228, 225, 225, 0.2);
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 15px;
+}
+
+.question {
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.answer {
+  display: auto;
+  margin-top: 5px;
+}
+
+li.active .answer {
+  display: block;
+}

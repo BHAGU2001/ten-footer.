@@ -1,0 +1,51 @@
+/* Footer.css */
+.card-container {
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    color: #fff;
+    padding: 10px;
+    }
+
+.card1{
+    flex: 1;
+    padding: 20px;
+    border-radius: 5px;
+    margin: 0 10px;
+    text-align: left;
+}
+
+.card2 {
+    flex: 1;
+    padding: 20px;
+    border-radius: 5px;
+    margin: 0 10px;
+    text-align: center;
+}
+
+.card3{
+    flex: 1;
+    padding: 20px;
+    border-radius: 5px;
+    margin: 0 10px;
+    text-align: right;
+}
+
+.card4{
+  flex: 1;
+  padding: 20px;
+  border-radius: 5px;
+  margin: 0 10px;
+  text-align: right;
+}
+
+.card5{
+  flex: 1;
+  padding: 20px;
+  border-radius: 5px;
+  margin: 0 10px;
+  text-align: right;
+}
+
+
+
